@@ -3,7 +3,7 @@
   "publisher": "wmcicompsci",
   "displayName": "cs30-p5",
   "description": "Create and manage p5.js projects. Schellenberg customized the template to work well for CS30, but this is just a slight adaptation of the p5.vscode extension by Sam Lavigne.",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "repository": "https://github.com/schellenberg/p5.vscode",
   "engines": {
     "vscode": "^1.47.0"
@@ -58,7 +58,6 @@
     "@types/vscode": "^1.47.0",
     "@typescript-eslint/eslint-plugin": "^2.30.0",
     "@typescript-eslint/parser": "^2.30.0",
-    "eslint": "^6.8.0",
     "glob": "^7.1.6",
     "js-yaml": "^3.14.0",
     "mocha": "^7.1.2",
