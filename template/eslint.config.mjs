@@ -445,7 +445,6 @@ export default [
     },
     rules: {
       indent: ["warn", 2],
-      quotes: ["warn", "double"],
       semi: ["warn", "always"],
       "no-extra-parens": ["warn", "all"],
       curly: ["warn", "all"],
