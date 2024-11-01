@@ -509,6 +509,26 @@
     "install": "https://raw.githubusercontent.com/generative-light/p5.scribble.js/master/p5.scribble.js"
   },
   {
+    "name": "p5.serial",
+    "url": "https://github.com/vanevery/p5.serialport",
+    "authors": [
+      {
+        "name": "Shawn Van Every",
+        "url": "https://www.walking-productions.com/notslop/abou/"
+      },
+      {
+        "name": "Jen Kagan",
+        "url": "https://kaganjd.github.io/portfolio/"
+      },
+      {
+        "name": "Tom Igoe",
+        "url": "https://tigoe.net/"
+      }
+    ],
+    "desc": "p5.serial enables serial communication between devices that support serial (RS-232) and p5 sketches running in the browser.",
+    "install": "https://raw.githubusercontent.com/p5-serial/p5.serialport/master/lib/p5.serialport.js"
+  },
+  {
     "name": "p5.shape.js",
     "url": "https://github.com/gaba5/p5.shape.js",
     "authors": [
