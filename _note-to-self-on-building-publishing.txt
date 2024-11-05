@@ -2,6 +2,9 @@
 ./update-p5.sh    (will have to be on a mac for this, or do it by hand...)
 OR update-p5js.py  (just need requests installed)
 
+//if you want to update the eslint config file to match the p5js reference, run
+./update-eslint-rules.py
+
 
 Then...
 npm install -g @vscode/vsce
