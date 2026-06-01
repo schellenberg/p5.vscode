@@ -13,6 +13,7 @@ const vsfs = vscode.workspace.fs;
 
 export async function activate(context: vscode.ExtensionContext) {
   updateJSConfig();
+  await configureBundledEslintRuntime(context);
 
   let createProject = vscode.commands.registerCommand(
     "p5-vscode.createProject",
@@ -91,6 +92,30 @@ export async function activate(context: vscode.ExtensionContext) {
 
   context.subscriptions.push(createProject);
   context.subscriptions.push(installLibrary);
+}
+
+async function configureBundledEslintRuntime(context: vscode.ExtensionContext) {
+  if (!vscode.workspace.workspaceFolders || vscode.workspace.workspaceFolders.length === 0) {
+    return;
+  }
+
+  const bundledNodeModulesPath = path.join(context.extensionPath, "node_modules");
+  const bundledEslintPath = path.join(bundledNodeModulesPath, "eslint");
+  if (!existsSync(bundledEslintPath)) {
+    return;
+  }
+
+  const eslintConfig = vscode.workspace.getConfiguration("eslint");
+  const existingNodePath = eslintConfig.get<string>("nodePath");
+  if (existingNodePath) {
+    return;
+  }
+
+  await eslintConfig.update(
+    "nodePath",
+    bundledNodeModulesPath,
+    vscode.ConfigurationTarget.Workspace
+  );
 }
 
 async function installP5Library(url: string | string[]) {

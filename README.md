@@ -3,9 +3,8 @@
 This is a slightly adapted version of Sam Lavigne's p5.vscode extension. The relevant changes are:
 
 - index.html file from the template links to the un-minified version of p5.js by default, which allows for the use of the FES (Friendly Error System) built into p5.js.
-- includes an .eslintrc.json file in the template folder. All p5.js functions/variables are included as globals (to avoid having them trigger non-used variable/function warnings).
-- includes the ESLint extension as part of the bundle.
-- for any of the ESLint functionality to work, the student must install [nodejs](https://nodejs.org/), then run `npm install -g eslint` (this is only required one time, and should work on all future projects).
+- includes an `eslint.config.mjs` file in the template folder. All p5.js functions/variables are included as globals (to avoid having them trigger non-used variable/function warnings).
+- includes and configures the VS Code ESLint extension to use the ESLint runtime bundled with this extension (no global ESLint install required).
 
 # p5.vscode - Original Info
 
