@@ -1,0 +1,26 @@
+[
+  {
+    "name": "matter.js",
+    "url": "https://brm.io/matter-js/",
+    "description": "A 2D rigid body physics engine for the web.",
+    "authors": [
+      {
+        "name": "liabru",
+        "url": "https://github.com/liabru"
+      }
+    ],
+    "install": "https://cdn.jsdelivr.net/npm/matter-js/build/matter.min.js"
+  },
+  {
+    "name": "Chart.js",
+    "url": "https://www.chartjs.org/",
+    "description": "Simple yet flexible JavaScript charting library for designers and developers.",
+    "authors": [
+      {
+        "name": "Chart.js Contributors",
+        "url": "https://github.com/chartjs/Chart.js"
+      }
+    ],
+    "install": "https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"
+  }
+]

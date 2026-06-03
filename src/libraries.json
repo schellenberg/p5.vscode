@@ -1,30 +1,90 @@
 [
   {
-    "name": "asciiart",
-    "url": "https://tetoki.eu/asciiart",
+    "name": "AnimatorJs",
+    "url": "https://github.com/RandomGamingDev/AnimatorJs/",
     "authors": [
       {
-        "name": "Pawel Janicki",
-        "url": "https://paweljanicki.jp"
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
       }
     ],
-    "desc": "p5.asciiart is a simple and easy to use image - to - ASCII art converter for p5js.",
-    "install": "https://www.tetoki.eu/asciiart/asciiart/p5.asciiart.min.js"
+    "desc": "A javascript animation viewer based on a custom animation API primarily designed for p5.js and allows for dynamic, lightweight, real-time rendered browser animations controlled purely by code.",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/AnimatorJs/animator.js"
+  },
+  {
+    "name": "BasicECSJs",
+    "url": "https://github.com/RandomGamingDev/BasicECSJs/",
+    "authors": [
+      {
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
+      }
+    ],
+    "desc": "A basic javascript ECS system, with SceneManagers, Scenes and GameObjects with their own Start and Update functions.",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/OneWayLinkedListLibJs/list.js"
+  },
+  {
+    "name": "BasicUnitTesterJs",
+    "url": "https://github.com/RandomGamingDev/BasicUnitTesterJs/",
+    "authors": [
+      {
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
+      }
+    ],
+    "desc": "BasicUnitTesterJs is a basic javascript unit tester designed to work on all JS platforms and be small and streamlined for the best developer experience.",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/BasicUnitTesterJs/unit-tester.js"
+  },
+  {
+    "name": "BMWalker.js",
+    "url": "https://github.com/tetunori/BMWalker.js",
+    "authors": [
+      {
+        "name": "Tetsunori Nakayama",
+        "url": "https://github.com/tetunori"
+      }
+    ],
+    "desc": "A simple JavaScript library for drawing the biological motion 'Walker'.",
+    "install": "https://tetunori.github.io/BMWalker.js/dist/v0.6.1/bmwalker.js"
   },
   {
     "name": "c2.js",
-    "url": "https://c2js.org/",
+    "url": "https://c2js.org",
     "authors": [
       {
         "name": "Ren Yuan",
-        "url": "https://renyuan.io/"
+        "url": "https://renyuan.io"
       }
     ],
     "desc": "c2.js is a JavaScript library for creative coding based on computational geometry, physics simulation, evolutionary algorithm and other modules.",
     "install": "https://raw.githubusercontent.com/ren-yuan/c2.js/main/dist/c2.min.js"
   },
   {
-    "name": "Concave Hull",
+    "name": "canvasGUI",
+    "url": "http://www.lagers.org.uk/canvasgui/index.html",
+    "authors": [
+      {
+        "name": "Peter Lager",
+        "url": "http://www.lagers.org.uk"
+      }
+    ],
+    "desc": "Create GUI controls directly on your canvas.",
+    "install": "https://cdn.jsdelivr.net/npm/p5@2.2.2/lib/p5.js"
+  },
+  {
+    "name": "Chart.js",
+    "url": "https://www.chartjs.org/",
+    "authors": [
+      {
+        "name": "Chart.js Contributors",
+        "url": "https://github.com/chartjs/Chart.js"
+      }
+    ],
+    "desc": "Simple yet flexible JavaScript charting library for designers and developers.",
+    "install": "https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"
+  },
+  {
+    "name": "concaveHull",
     "url": "https://github.com/markroland/concaveHullJS",
     "authors": [
       {
@@ -32,60 +92,100 @@
         "url": "https://markroland.com"
       }
     ],
-    "desc": "Calculate a Concave Hull from a set of points in 2D space.",
+    "desc": "Calculate a Concave Hull from a set of points in 2D space",
     "install": "https://raw.githubusercontent.com/markroland/concaveHullJS/master/src/concaveHull.js"
   },
   {
-    "name": "grafica.js",
-    "url": "https://github.com/jagracar/grafica.js",
+    "name": "DoubleLinkedListLibJs",
+    "url": "https://github.com/RandomGamingDev/DoubleLinkedListLibJs",
     "authors": [
       {
-        "name": "Javier Graciá Carpio",
-        "url": "https://jagracar.com/p5jsSketches.php"
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
       }
     ],
-    "desc": "grafica.js lets you add simple but highly configurable 2D plots to your p5.js sketches.",
-    "install": "https://raw.githubusercontent.com/jagracar/grafica.js/master/lib/grafica.min.js"
+    "desc": "A simple double linked list that stores the head, tail and length of the list",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/DoubleLinkedListLibJs/list.js"
   },
   {
-    "name": "mappa",
-    "url": "https://github.com/cvalenzuela/Mappa",
+    "name": "every",
+    "url": "https://github.com/mngyuan/every",
     "authors": [
       {
-        "name": "Cristóbal Valenzuela",
-        "url": "https://github.com/cvalenzuela/"
+        "name": "Kevin Lee",
+        "url": "http://mngyuan.com/"
       }
     ],
-    "desc": "Mappa provides a set of tools for working with static maps, tile maps, and geo-data. Useful when building geolocation-based visual representations.",
-    "install": "https://raw.githubusercontent.com/cvalenzuela/Mappa/master/dist/mappa.js"
+    "desc": "every simplifies using time in p5.js sketch to do things like scene changes or repetitive drawing.",
+    "install": "https://cdn.jsdelivr.net/gh/mngyuan/every@1.2.0/p5.every.js"
   },
   {
-    "name": "marching",
-    "url": "https://github.com/jtnimoy/marching",
+    "name": "HY5",
+    "url": "https://hy5live.teddavis.org",
     "authors": [
       {
-        "name": "JT Nimoy",
-        "url": "https://jtnimoy.cc/"
+        "name": "Ted Davis",
+        "url": "https://teddavis.org"
       }
     ],
-    "desc": "Raster to vector conversion, isosurfaces.",
-    "install": "https://raw.githubusercontent.com/jtnimoy/marching/master/lib/p5.marching.min.js"
+    "desc": "hydra 🙏 p5.js ~ share visuals between both frameworks!",
+    "install": "https://unpkg.com/hydra-synth"
+  },
+  {
+    "name": "lygia",
+    "url": "https://lygia.xyz/",
+    "authors": [
+      {
+        "name": "Patricio Gonzalez Vivo",
+        "url": "https://github.com/patriciogonzalezvivo"
+      }
+    ],
+    "desc": "LYGIA is a shader library of reusable functions that will let you prototype, port or ship a project in just few minutes. It's very granular, flexible and efficient. Support multiple shading languages and can easily be added to any project, enviroment or framework of your choice. \n",
+    "install": "https://unpkg.com/resolve-lygia/index.js"
+  },
+  {
+    "name": "MatrixJs",
+    "url": "https://github.com/RandomGamingDev/MatrixJs",
+    "authors": [
+      {
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
+      }
+    ],
+    "desc": "A basic javascript library for dynamic and powerful matrices based on lists wrapped around with a powerful class.",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/VecJs/vec.js"
+  },
+  {
+    "name": "matter.js",
+    "url": "https://brm.io/matter-js/",
+    "authors": [
+      {
+        "name": "liabru",
+        "url": "https://github.com/liabru"
+      }
+    ],
+    "desc": "A 2D rigid body physics engine for the web.",
+    "install": "https://cdn.jsdelivr.net/npm/matter-js/build/matter.min.js"
   },
   {
     "name": "ml5.js",
     "url": "https://ml5js.org/",
     "authors": [
       {
-        "name": "NYU ITP/IMA and contributors",
-        "url": "https://ml5js.org/"
+        "name": "NYU's Interactive Telecommunications/Interactive Media Arts Program",
+        "url": "https://tisch.nyu.edu/itp"
+      },
+      {
+        "name": "NYU Shanghai's Interactive Media Arts Program",
+        "url": "https://ima.shanghai.nyu.edu/"
       }
     ],
-    "desc": "ml5.js builds on Tensorflow.js and provides friendly access to machine learning algorithms and models in the browser.",
+    "desc": "Friendly machine learning for the web—a neighborly approach to creating and exploring artificial intelligence in the browser.",
     "install": "https://unpkg.com/ml5@latest/dist/ml5.min.js"
   },
   {
-    "name": "numero",
-    "url": "https://github.com/nickmcintyre/numero",
+    "name": "número",
+    "url": "https://mcintyre.io/numero",
     "authors": [
       {
         "name": "Nick McIntyre",
@@ -93,50 +193,66 @@
       }
     ],
     "desc": "A friendly and intuitive math library for p5.js.",
-    "install": "https://raw.githubusercontent.com/nickmcintyre/numero/main/dist/numero.js"
+    "install": "https://github.com/nickmcintyre/numero/releases/download/v0.6.0/numero.js"
   },
   {
-    "name": "p5play",
-    "url": "https://p5play.org",
+    "name": "OneWayLinkedListLibJs",
+    "url": "https://github.com/RandomGamingDev/OneWayLinkedListLibJs/",
     "authors": [
       {
-        "name": "Quinton Ashley",
-        "url": "https://www.youtube.com/@p5play_quinton-ashley"
-      },
-      {
-        "name": "Paolo Pedercini",
-        "url": "https://www.molleindustria.org/"
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
       }
     ],
-    "desc": "p5play is for creating interactive art and games with the Box2D physics engine. It provides sprites, animations, improved input detection, and more!",
-    "install": [
-      "https://cdn.jsdelivr.net/npm/p5play@3/planck.min.js",
-      "https://cdn.jsdelivr.net/npm/p5play@3/p5play.js"
-    ]
+    "desc": "A simple one way linked list that stores the head, tail and length of the list",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/OneWayLinkedListLibJs/list.js"
   },
   {
-    "name": "p5.3D",
-    "url": "https://github.com/FreddieRa/p5.3D",
+    "name": "p5.5",
+    "url": "https://github.com/eltapir/p5.5",
     "authors": [
       {
-        "name": "Freddie Rawlins",
-        "url": "https://freddierawlins.wixsite.com/site"
+        "name": "Kris HEYSE"
       }
     ],
-    "desc": "3D Text and Images in WebGL.",
-    "install": "https://raw.githubusercontent.com/FreddieRa/p5.3D/master/p5.3D.js"
+    "desc": "Add UI to p5.js and other goodies",
+    "install": "https://cdn.jsdelivr.net/npm/p5@1.11.1/lib/p5.min.js"
+  },
+  {
+    "name": "p5.anaglyph",
+    "url": "https://github.com/jdeboi/p5.anaglyph",
+    "authors": [
+      {
+        "name": "Jenna deBoisblanc",
+        "url": "https://jdeboi.com"
+      }
+    ],
+    "desc": "A library for creating 3D stereoscopic 3D scenes and images using red/cyan glasses",
+    "install": "https://raw.githubusercontent.com/jdeboi/p5.anaglyph/main/dist/p5.anaglyph.min.js"
   },
   {
     "name": "p5.animS",
-    "url": "https://wixette.github.io/p5.animS/",
+    "url": "https://wixette.github.io/p5.animS",
     "authors": [
       {
-        "name": "Yonggang Wang",
+        "name": "wixette",
         "url": "https://github.com/wixette"
       }
     ],
-    "desc": "p5.animS animates p5.js shapes by rendering their drawing processes.",
+    "desc": "Animates p5.js shapes by rendering their drawing processes.",
     "install": "https://raw.githubusercontent.com/wixette/p5.animS/main/build/p5.anims.min.js"
+  },
+  {
+    "name": "p5.asciify",
+    "url": "https://p5.textmode.art",
+    "authors": [
+      {
+        "name": "humanbydefinition",
+        "url": "https://github.com/humanbydefinition"
+      }
+    ],
+    "desc": "Apply real-time ASCII conversion to your favorite WEBGL p5.js sketches instantly.",
+    "install": "https://unpkg.com/p5.asciify/dist/p5.asciify.esm.js"
   },
   {
     "name": "p5.bezier",
@@ -144,10 +260,10 @@
     "authors": [
       {
         "name": "Peiling Jiang",
-        "url": "https://www.jpl.design"
+        "url": "https://jiang.pl/"
       }
     ],
-    "desc": "A library helps draw high-degree Bézier curves with unlimited points.",
+    "desc": "p5.bezier helps draw Bézier curves with more than four control points and closed curves.",
     "install": "https://cdn.jsdelivr.net/npm/p5bezier@latest/lib/p5.bezier.min.js"
   },
   {
@@ -156,7 +272,7 @@
     "authors": [
       {
         "name": "Yining Shi",
-        "url": "https://1023.io"
+        "url": "https://1023.io/"
       },
       {
         "name": "Jingwen Zhu",
@@ -167,20 +283,20 @@
         "url": "https://tigoe.com/"
       }
     ],
-    "desc": "A Javascript library that enables communication between BLE devices and p5 sketches.",
+    "desc": "A Javascript library that enables communication between your BLE devices and your p5.js sketch.",
     "install": "https://unpkg.com/p5ble/dist/p5.ble.js"
   },
   {
-    "name": "p5.bots",
-    "url": "https://github.com/sarahgp/p5bots",
+    "name": "p5.brush",
+    "url": "https://github.com/acamposuribe/p5.brush",
     "authors": [
       {
-        "name": "Sarah Groff-Palermo",
-        "url": "http://www.sarahgp.com"
+        "name": "Alejandro Campos Uribe",
+        "url": "https://art.arqtistic.com/"
       }
     ],
-    "desc": "With p5.bots you can interact with your Arduino (or other microprocessor) from within the browser. Use sensor data to drive a sketch; use a sketch to drive LEDs, motors, and more!",
-    "install": "https://raw.githubusercontent.com/sarahgp/p5bots/master/lib/p5bots.js"
+    "desc": "Unlock custom brushes, natural fill effects and intuitive hatching in p5.js.",
+    "install": "https://unpkg.com/p5.brush/dist/p5.brush.js"
   },
   {
     "name": "p5.capture",
@@ -191,108 +307,152 @@
         "url": "https://github.com/tapioca24"
       }
     ],
-    "desc": "p5.capture provides a simple GUI to easily record p5.js animations and output video files in various formats (webm, gif, mp4, png, jpg, and webp).",
+    "desc": "Record your p5.js sketches effortlessly!",
     "install": "https://cdn.jsdelivr.net/npm/p5.capture@1.2.0/dist/p5.capture.umd.min.js"
   },
   {
-    "name": "p5.clickable",
-    "url": "https://github.com/Lartu/p5.clickable",
-    "authors": [
-      {
-        "name": "Martín del Río",
-        "url": "https://www.lartu.net"
-      }
-    ],
-    "desc": "Event driven, easy-to-use button library for p5.js.",
-    "install": "https://raw.githubusercontent.com/Lartu/p5.clickable/master/library/p5.clickable.js"
-  },
-  {
-    "name": "p5.cmyk.js",
+    "name": "p5.cmyk",
     "url": "https://github.com/jtnimoy/p5.cmyk.js",
     "authors": [
       {
         "name": "JT Nimoy",
-        "url": "https://jtnimoy.cc/"
+        "url": "https://jtnimoy.cc"
       }
     ],
-    "desc": "CMYK ColorSpace",
+    "desc": "CMYK color for p5.js",
     "install": "https://raw.githubusercontent.com/jtnimoy/p5.cmyk.js/master/addons/p5.cmyk.js"
   },
   {
-    "name": "p5.collide2D",
-    "url": "https://github.com/bmoren/p5.collide2D",
+    "name": "p5.collide2d",
+    "url": "https://editor.p5js.org/p52dcollide/collections/taUUdSGhj",
     "authors": [
       {
         "name": "Ben Moren",
-        "url": "https://www.benmoren.com/"
+        "url": "https://benmoren.com"
       }
     ],
     "desc": "p5.collide2D provides tools for calculating collision detection for 2D geometry with p5.js.",
     "install": "https://raw.githubusercontent.com/bmoren/p5.collide2D/master/p5.collide2d.min.js"
   },
   {
-    "name": "p5.createloop",
+    "name": "p5.colorGenerator",
+    "url": "https://alexandru-postolache.github.io/p5.colorGenerator/demo",
+    "authors": [
+      {
+        "name": "Alex Codes Art",
+        "url": "https://alexcodesart.com"
+      }
+    ],
+    "desc": "p5.colorGenerator generates harmonious color schemes by starting from a given base color or selecting a random color as a starting point.",
+    "install": "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"
+  },
+  {
+    "name": "p5.comfyui-helper",
+    "url": "https://github.com/gohai/p5.comfyui-helper",
+    "authors": [
+      {
+        "name": "Gottfried Haider",
+        "url": "https://github.com/gohai/"
+      }
+    ],
+    "desc": "A library for interfacing with ComfyUI",
+    "install": "https://unpkg.com/@gohai/p5.comfyui-helper/libraries/p5.comfyui-helper.js"
+  },
+  {
+    "name": "p5.createLoop",
     "url": "https://www.npmjs.com/package/p5.createloop",
     "authors": [
       {
-        "name": "Peter Hayman",
-        "url": "https://www.piratesjustar.com/"
+        "name": "mrchantey",
+        "url": "https://github.com/mrchantey"
       }
     ],
     "desc": "Create animation loops with noise and GIF exports in one line of code.",
     "install": "https://unpkg.com/p5.createloop/dist/p5.createloop.js"
   },
   {
-    "name": "p5.dimensions",
-    "url": "https://github.com/Smilebags/p5.dimensions.js",
+    "name": "p5.csg",
+    "url": "https://github.com/davepagurek/p5.csg",
     "authors": [
       {
-        "name": "Smilebags",
-        "url": "https://github.com/Smilebags"
-      },
-      {
-        "name": "Max Segal",
-        "url": "https://github.com/max0410"
+        "name": "Dave Pagurek",
+        "url": "https://www.davepagurek.com"
       }
     ],
-    "desc": "p5.dimensions extends p5.js' vector functions to work in any number of dimensions.",
-    "install": "https://raw.githubusercontent.com/Smilebags/p5.dimensions.js/master/libraries/p5.dimensions.js"
+    "desc": "A library for constructive solid geometry. Do Boolean operations on your p5.Geometry to make new shapes!",
+    "install": "https://unpkg.com/@davepagurek/p5.csg/build/p5.csg.js"
   },
   {
-    "name": "p5.EasyCam",
-    "url": "https://github.com/freshfork/p5.EasyCam",
+    "name": "p5.fab",
+    "url": "https://machineagency.github.io/p5.fab-docs/",
     "authors": [
       {
-        "name": "jWilliam Dunn",
-        "url": "https://jwilliamdunn.com"
+        "name": "Blair Subbaraman",
+        "url": "https://blahblahblair.com/"
       }
     ],
-    "desc": "Simple 3D camera control with inertial pan, zoom, and rotate. Major contributions by Thomas Diewald.",
-    "install": "https://raw.githubusercontent.com/freshfork/p5.EasyCam/master/p5.easycam.min.js"
+    "desc": "p5.fab controls digital fabrication machines from p5.js!\n",
+    "install": "https://unpkg.com/p5-fab/lib/p5.fab.js"
   },
   {
-    "name": "p5.experience",
-    "url": "https://github.com/loneboarder/p5.experience.js",
+    "name": "p5.fillGradient",
+    "url": "https://www.npmjs.com/package/p5.fillgradient",
     "authors": [
       {
-        "name": "Felix Meichelböck",
-        "url": "https://github.com/loneboarder"
+        "name": "Jorge Moreno",
+        "url": "https://alterebro.com"
       }
     ],
-    "desc": "Extensive library for p5.js that adds additional event-listening functionality for creating canvas-based web applications.",
-    "install": "https://raw.githubusercontent.com/loneboarder/p5.experience.js/master/p5.experience.min.js"
+    "desc": "Fill shapes in p5.js with Linear, Radial and Conic Gradients.",
+    "install": "https://unpkg.com/p5.fillgradient/dist/p5.fillGradient.min.js"
   },
   {
-    "name": "p5.func",
-    "url": "https://idmnyu.github.io/p5.js-func",
+    "name": "p5.filterRenderer",
+    "url": "https://github.com/davepagurek/p5.filterRenderer",
     "authors": [
       {
-        "name": "R. Luke DuBois",
-        "url": "https://lukedubois.com/"
+        "name": "Dave Pagurek",
+        "url": "https://www.davepagurek.com"
       }
     ],
-    "desc": "p5.func is a p5 extension that provides new objects and utilities for function generation in the time, frequency, and spatial domains.",
-    "install": "https://raw.githubusercontent.com/IDMNYU/p5.js-func/master/lib/p5.func.min.js"
+    "desc": "A library for rendering 3D scenes with depth-of-field blur and with ambient occlusion shadows.",
+    "install": "https://unpkg.com/@davepagurek/p5.filterrenderer/p5.filterRenderer.min.js"
+  },
+  {
+    "name": "p5.FIP",
+    "url": "https://prontopablo.github.io/p5.FIP/",
+    "authors": [
+      {
+        "name": "Darragh Nolan",
+        "url": "https://github.com/prontopablo"
+      }
+    ],
+    "desc": "Real-time image processing library - add filters and post-processing to your p5.js sketches.",
+    "install": "https://unpkg.com/iframe-worker/shim"
+  },
+  {
+    "name": "p5.flex",
+    "url": "https://github.com/ZRNOF/p5.flex",
+    "authors": [
+      {
+        "name": "Zaron Chen",
+        "url": "https://zrnof.github.io/"
+      }
+    ],
+    "desc": "p5 container with responsive canvas feature.",
+    "install": "https://unpkg.com/p5.flex/src/p5.flex.min.mjs"
+  },
+  {
+    "name": "p5.fps",
+    "url": "https://github.com/taylorvance/p5.fps",
+    "authors": [
+      {
+        "name": "Taylor Vance",
+        "url": "https://www.tvprograms.tech"
+      }
+    ],
+    "desc": "Add a simple FPS counter to your sketches.",
+    "install": "https://cdn.jsdelivr.net/npm/p5@2.0.0/lib/p5.min.js"
   },
   {
     "name": "p5.geolocation",
@@ -300,77 +460,50 @@
     "authors": [
       {
         "name": "Ben Moren",
-        "url": "https://www.benmoren.com/"
+        "url": "https://benmoren.com"
       }
     ],
     "desc": "p5.geolocation provides techniques for acquiring, watching, calculating, and geofencing user locations for p5.js.",
     "install": "https://raw.githubusercontent.com/bmoren/p5.geolocation/master/p5.geolocation.js"
   },
   {
-    "name": "p5.gibber",
-    "url": "https://charlie-roberts.com/gibber/p5-gibber/",
-    "authors": [
-      {
-        "name": "Charlie Roberts",
-        "url": "https://charlie-roberts.com"
-      }
-    ],
-    "desc": "p5.gibber provides rapid music sequencing and audio synthesis capabilities.",
-    "install": "https://raw.githubusercontent.com/charlieroberts/p5.gibber.js/master/dist/p5.gibber.min.js"
-  },
-  {
     "name": "p5.glitch",
-    "url": "https://p5.glitch.me/",
+    "url": "https://p5.glitch.me",
     "authors": [
       {
         "name": "Ted Davis",
         "url": "https://teddavis.org"
       }
     ],
-    "desc": "p5.glitch extends p5.js for glitching images and binary files.",
+    "desc": "p5.js library for glitching images and binary files in the web browser",
     "install": "https://cdn.jsdelivr.net/npm/p5.glitch@latest/p5.glitch.js"
   },
   {
-    "name": "p5.gui",
-    "url": "https://github.com/bitcraftlab/p5.gui",
+    "name": "p5.grain",
+    "url": "https://github.com/meezwhite/p5.grain",
     "authors": [
       {
-        "name": "Martin Schneider",
-        "url": "https://www.bitcraftlab.com/"
+        "name": "meezwhite",
+        "url": "https://www.meezwhite.xyz"
       }
     ],
-    "desc": "p5.gui generates a graphical user interface for your p5.js sketches.",
-    "install": [
-      "https://raw.githubusercontent.com/bitcraftlab/p5.gui/master/libraries/quicksettings.js",
-      "https://raw.githubusercontent.com/bitcraftlab/p5.gui/master/libraries/p5.gui.js"
-    ]
+    "desc": "Conveniently add film grain, seamless texture overlays, and manipulate pixels to achieve nostalgic and artistic effects in p5.js sketches and artworks.",
+    "install": "https://raw.githubusercontent.com/meezwhite/p5.grain/main/p5.grain.js"
   },
   {
-    "name": "p5.j5",
-    "url": "https://github.com/monteslu/p5.j5",
+    "name": "p5.joystick",
+    "url": "https://github.com/Vamoss/p5.joystick",
     "authors": [
       {
-        "name": "Luis Montes",
-        "url": "https://twitter.com/monteslu"
+        "name": "Vamoss",
+        "url": "https://www.vamoss.com.br"
       }
     ],
-    "desc": "The full Johnny-Five.io Nodebots/robotics library for Arduino and other microcontrollers made to work directly in browser with WebSerial or WebUSB.",
-    "install": "https://unpkg.com/p5.j5@1.1.0/dist/p5.j5.min.js"
+    "desc": "Connect and play with physical joysticks.",
+    "install": "https://unpkg.com/p5.joystick/p5.joystick.min.js"
   },
   {
-    "name": "p5.jacdac",
-    "url": "https://microsoft.github.io/jacdac-docs/clients/javascript/p5js/ ",
-    "authors": [
-      {
-        "name": "Jonathan de Halleux",
-        "url": "https://twitter.com/pelikhan"
-      }
-    ],
-    "desc": "Plug-and-play micro-controllers for p5js",
-    "install": "https://cdn.jsdelivr.net/npm/p5.capture@1.2.0/dist/p5.capture.umd.min.js"
-  },
-  {
-    "name": "p5.localmessage",
+    "name": "p5.localessage",
     "url": "https://github.com/bmoren/p5.localmessage",
     "authors": [
       {
@@ -378,171 +511,199 @@
         "url": "https://benmoren.com"
       }
     ],
-    "desc": "p5.localmessage provides a simple interface to send messages locally from one sketch to another for easy multi-window sketching!",
+    "desc": "p5.localmessage provides a simple interface to send messages locally from one sketch to another.",
     "install": "https://raw.githubusercontent.com/bmoren/p5.localmessage/master/p5.localmessage.min.js"
   },
   {
-    "name": "p5.particle",
-    "url": "https://github.com/bobcgausa/cook-js",
+    "name": "p5.mapper",
+    "url": "https://github.com/jdeboi/p5.mapper",
     "authors": [
       {
-        "name": "Robert Cook",
-        "url": "http://professorcook.org/"
+        "name": "Jenna deBoisblanc",
+        "url": "https://jdeboi.com"
       }
     ],
-    "desc": "The Particle and Fountain objects can be used to create data-driven effects that are defined through user structures or JSON input and user-draw functions.",
-    "install": "https://rawgit.com/bobcgausa/cook-js/master/p5.particle.js"
+    "desc": "A projection mapping library for p5.js",
+    "install": "https://cdn.jsdelivr.net/gh/jdeboi/p5.mapper/dist/p5.mapper.min.js"
+  },
+  {
+    "name": "p5.marching",
+    "url": "https://github.com/jtnimoy/marching",
+    "authors": [
+      {
+        "name": "JT Nimoy",
+        "url": "https://jtnimoy.cc"
+      }
+    ],
+    "desc": "Raster to vector conversion, isosurfaces.",
+    "install": "https://raw.githubusercontent.com/jtnimoy/marching/master/lib/p5.marching.min.js"
+  },
+  {
+    "name": "p5.Modbuttons",
+    "url": "https://github.com/yetyeeter1337/p5.Modbuttons",
+    "authors": [
+      {
+        "name": "7vector",
+        "url": "https://github.com/yetyeeter1337"
+      }
+    ],
+    "desc": "a simple and modular button system for p5js",
+    "install": "https://raw.githubusercontent.com/yetyeeter1337/p5.Modbuttons/main/p5.modbuttons.js"
+  },
+  {
+    "name": "p5.nvim",
+    "url": "https://github.com/prjctimg/p5.nvim",
+    "authors": [
+      {
+        "name": "prjctimg",
+        "url": "https://prjctimg.me"
+      }
+    ],
+    "desc": "Better editor support for p5.js sketchspaces in Neovim",
+    "install": null
+  },
+  {
+    "name": "p5.palette",
+    "url": "https://www.remistura.com/p5.palette",
+    "authors": [
+      {
+        "name": "Remistura Studio",
+        "url": "https://www.remistura.com"
+      }
+    ],
+    "desc": "A library to manage color palettes in p5.js",
+    "install": "https://unpkg.com/p5.palette/dist/p5.palette.min.js"
   },
   {
     "name": "p5.party",
-    "url": "https://github.com/jbakse/p5.party",
+    "url": "https://p5party.org",
     "authors": [
       {
         "name": "Justin Bakse",
         "url": "http://justinbakse.com"
       }
     ],
-    "desc": "p5.party is a library for easily creating networked multiuser games, apps, and sketches.",
+    "desc": "quickly prototype networked multiplayer games and apps",
     "install": "https://cdn.jsdelivr.net/npm/p5.party@latest/dist/p5.party.js"
   },
   {
-    "name": "p5.PatGrad",
-    "url": "https://github.com/antiboredom/p5.patgrad",
+    "name": "p5.pattern",
+    "url": "https://github.com/SYM380/p5.pattern",
     "authors": [
       {
-        "name": "Sam Lavigne",
-        "url": "https://lav.io"
+        "name": "Taichi Sayama",
+        "url": "https://twitter.com/hyappy717"
       }
     ],
-    "desc": "p5.PatGrad let's you add patterns and gradients to your sketches.",
-    "install": "https://cdn.jsdelivr.net/gh/antiboredom/p5.patgrad/p5.patgrad.js"
+    "desc": "A pattern drawing library for p5.js.",
+    "install": "https://raw.githubusercontent.com/SYM380/p5.pattern/main/p5.pattern.js"
   },
   {
     "name": "p5.Polar",
     "url": "https://github.com/liz-peng/p5.Polar",
     "authors": [
       {
-        "name": "Liz Peng",
-        "url": "https://github.com/liz-peng"
+        "name": "Liz Peng"
       }
     ],
     "desc": "p5.Polar provides mathematical abstractions making it easy to create create beautiful, kaleidoscopic, radial patterns.",
     "install": "https://raw.githubusercontent.com/liz-peng/p5.Polar/master/p5.Polar.min.js"
   },
   {
-    "name": "p5.projection",
-    "url": "https://osresearch.github.io/p5.projection/",
+    "name": "p5.qol",
+    "url": "https://github.com/error-four-o-four/p5.qol.js",
     "authors": [
       {
-        "name": "Trammell Hudson",
-        "url": "https://trmm.net/"
+        "name": "Jens Bachmayer",
+        "url": "https://github.com/error-four-o-four"
       }
     ],
-    "desc": "Easy projection mapping of sketches onto real world surfaces",
-    "install": [
-      "https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.1/math.js",
-      "https://cdn.jsdelivr.net/gh/osresearch/p5.projection@0.2.1/library/p5.projection.js"
-    ]
+    "desc": "Extend p5 with Quality of Life utilities.",
+    "install": "https://unpkg.com/p5.qol/lib/p5.qol.js"
   },
   {
-    "name": "p5.recorder",
-    "url": "https://github.com/doriclaudino/p5.recorder",
+    "name": "p5.quadrille.js",
+    "url": "https://objetos.github.io/p5.quadrille.js/",
     "authors": [
       {
-        "name": "Dori Claudino",
-        "url": "https://github.com/doriclaudino"
+        "name": "Jean Pierre Charalambos",
+        "url": "https://nakednous.github.io/"
       }
     ],
-    "desc": "Record sketch canvas and audio.",
-    "install": "https://cdn.jsdelivr.net/npm/p5.recorder@latest/dist/p5.recorder.js"
+    "desc": "A library for creating puzzle and board games, and for visual computing experiments.",
+    "install": "https://cdn.jsdelivr.net/npm/p5.quadrille/dist/p5.quadrille.js"
   },
   {
     "name": "p5.Riso",
-    "url": "https://antiboredom.github.io/p5.riso",
+    "url": "https://antiboredom.github.io/p5.riso/",
     "authors": [
       {
         "name": "Sam Lavigne",
-        "url": "https://lav.io/"
+        "url": "http://lav.io/"
       },
       {
         "name": "Tega Brain",
-        "url": "https://tegabrain.com/"
+        "url": "http://tegabrain.com/"
       }
     ],
     "desc": "p5.Riso is a library for generating files suitable for Risograph printing. It helps turn your sketches into multi-color prints.",
     "install": "https://raw.githubusercontent.com/antiboredom/p5.riso/master/lib/p5.riso.js"
   },
   {
-    "name": "p5.scenemanager",
+    "name": "p5.scaler",
+    "url": "https://github.com/Morfologia-digital/p5.scaler",
+    "authors": [
+      {
+        "name": "Rodjun",
+        "url": "https://rodjun.art"
+      },
+      {
+        "name": "Monica Rizzolli",
+        "url": "https://monicarizzolli.io/"
+      }
+    ],
+    "desc": "Smart scaling of p5.js sketches in a variety of ways (to fit the browser's inner dimensions, to fit the canvas DOM container, to a specific ratio, etc).",
+    "install": "https://raw.githubusercontent.com/Morfologia-digital/p5.scaler/main/p5.scaler.js"
+  },
+  {
+    "name": "p5.SceneManager",
     "url": "https://github.com/mveteanu/p5.SceneManager",
     "authors": [
       {
-        "name": "Marian Veteanu",
-        "url": "https://github.com/mveteanu/"
+        "name": "CodeGuppy",
+        "url": "https://codeguppy.com"
       }
     ],
     "desc": "p5.SceneManager helps you create sketches with multiple states / scenes. Each scene is a like a sketch within the main sketch.",
     "install": "https://raw.githubusercontent.com/mveteanu/p5.SceneManager/master/lib/scenemanager.js"
   },
   {
-    "name": "p5.screenPosition",
-    "url": "https://github.com/bohnacker/p5js-screenPosition",
+    "name": "p5.serialserver",
+    "url": "https://p5-serial.github.io/p5.serialserver/",
     "authors": [
       {
-        "name": "Hartmut Bohnacker",
-        "url": "https://hartmut-bohnacker.de/"
+        "name": "aarón montoya-moraga",
+        "url": "https://montoyamoraga.io/"
       }
     ],
-    "desc": "Adds the screenX and screenY functionality from Processing to P5js.",
-    "install": "https://raw.githubusercontent.com/bohnacker/p5js-screenPosition/master/addScreenPositionFunction.js"
-  },
-  {
-    "name": "p5.scribble",
-    "url": "https://github.com/generative-light/p5.scribble.js",
-    "authors": [
-      {
-        "name": "handy",
-        "url": "https://github.com/gicentre/handy"
-      }
-    ],
-    "desc": "Draw 2D primitives in a sketchy look. Created by Janneck Wullschleger, based on a port of the original Processing library",
-    "install": "https://raw.githubusercontent.com/generative-light/p5.scribble.js/master/p5.scribble.js"
-  },
-  {
-    "name": "p5.serial",
-    "url": "https://github.com/vanevery/p5.serialport",
-    "authors": [
-      {
-        "name": "Shawn Van Every",
-        "url": "https://www.walking-productions.com/notslop/abou/"
-      },
-      {
-        "name": "Jen Kagan",
-        "url": "https://kaganjd.github.io/portfolio/"
-      },
-      {
-        "name": "Tom Igoe",
-        "url": "https://tigoe.net/"
-      }
-    ],
-    "desc": "p5.serial enables serial communication between devices that support serial (RS-232) and p5 sketches running in the browser.",
+    "desc": "p5.serialserver is a p5.js library that enables communication between your p5.js sketch and a serial enabled device, for example, an Arduino microcontroller.",
     "install": "https://raw.githubusercontent.com/p5-serial/p5.serialport/master/lib/p5.serialport.js"
   },
   {
-    "name": "p5.shape.js",
-    "url": "https://github.com/gaba5/p5.shape.js",
+    "name": "p5.simpleAR",
+    "url": "https://github.com/tetunori/p5.simpleAR",
     "authors": [
       {
-        "name": "Sebastien Lorentz",
-        "url": "https://github.com/gaba5"
+        "name": "Tetsunori Nakayama",
+        "url": "https://github.com/tetunori"
       }
     ],
-    "desc": "A library built to add more simple shapes to the p5.js framework.",
-    "install": "https://raw.githubusercontent.com/gaba5/p5.shape.js/master/p5.shape.js"
+    "desc": "A simple JavaScript library that easily converts existing p5.js sketches to AR.",
+    "install": "https://tetunori.github.io/p5.simpleAR/dist/v0.7.0/p5SimpleAR.js"
   },
   {
     "name": "p5.speech",
-    "url": "https://idmnyu.github.io/p5.js-speech/",
+    "url": "https://idmnyu.github.io/p5.js-speech",
     "authors": [
       {
         "name": "R. Luke DuBois",
@@ -553,40 +714,48 @@
     "install": "https://raw.githubusercontent.com/IDMNYU/p5.js-speech/master/lib/p5.speech.js"
   },
   {
-    "name": "p5.start2d.js",
-    "url": "https://github.com/eltapir/p5.start2d.js",
+    "name": "p5.Sprite",
+    "url": "https://github.com/RandomGamingDev/p5.Sprite/",
     "authors": [
       {
-        "name": "Kris HEYSE",
-        "url": "https://github.com/eltapir"
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
       }
     ],
-    "desc": "p5 extension for 2D static art using px, mm, cm or inches",
-    "install": "https://raw.githubusercontent.com/eltapir/p5.start2d.js/master/js/p5.start2d.js"
+    "desc": "A basic sprite library that supports both animated and static sprites for p5.js",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/p5.Sprite/sprite.js"
   },
   {
-    "name": "p5.tiledmap",
-    "url": "https://github.com/linux-man/p5.tiledmap",
+    "name": "p5.teach.js",
+    "url": "https://github.com/two-ticks/p5.teach.js",
     "authors": [
       {
-        "name": "Caldas Lopes",
-        "url": "https://softlab.pt/"
+        "name": "Aditya Siddheshwar",
+        "url": "https://two-ticks.github.io/"
+      },
+      {
+        "name": "Nick McIntyre",
+        "url": "https://mcintyre.io/"
+      },
+      {
+        "name": "Jithin KS",
+        "url": "https://jithinks.netlify.app/"
       }
     ],
-    "desc": "p5.tiledmap provides drawing and helper functions to include maps in your sketches.",
-    "install": "https://raw.githubusercontent.com/linux-man/p5.tiledmap/master/p5.tiledmap.min.js"
+    "desc": "A beginner friendly math animation library for p5.js",
+    "install": "https://raw.githubusercontent.com/two-ticks/p5.teach.js/refs/heads/main/dist/p5.teach.js"
   },
   {
-    "name": "p5.timer",
-    "url": "https://github.com/scottkildall/p5.timer",
+    "name": "p5.toio",
+    "url": "https://tetunori.github.io/p5.toio/",
     "authors": [
       {
-        "name": "Scott Kildall",
-        "url": "https://www.kildall.com"
+        "name": "Tetsunori Nakayama",
+        "url": "https://github.com/tetunori"
       }
     ],
-    "desc": "This library performs asynchronous timing functions like countdowns, one-shot timers, % time elapsed and encapsulates the millis() function and other related calculations that often clog up your code.",
-    "install": "https://raw.githubusercontent.com/scottkildall/p5.timer/master/p5.timer.js"
+    "desc": "A JavaScript library for controlling toio™Core Cube from p5.js sketches.",
+    "install": "https://raw.githubusercontent.com/tetunori/p5.toio/master/dist/p5.toio.js"
   },
   {
     "name": "p5.touchgui",
@@ -594,11 +763,35 @@
     "authors": [
       {
         "name": "Carlos L05 Garcia",
-        "url": "https://L05.is"
+        "url": "https://l05.is/"
       }
     ],
-    "desc": "A multi-touch and mouse GUI Library for p5.js.",
+    "desc": "p5.touchgui is intended to extend p5.js and make it easy to add buttons, sliders, and other GUI (graphical user interface) objects to your p5.js sketches, enabling you to focus on quickly iterating ideas with easily created GUI objects that work with both mouse and multi-touch input.",
     "install": "https://raw.githubusercontent.com/L05/p5.touchgui/master/lib/p5.touchgui.js"
+  },
+  {
+    "name": "p5.transparency",
+    "url": "https://github.com/davepagurek/p5.transparency",
+    "authors": [
+      {
+        "name": "Dave Pagurek",
+        "url": "https://www.davepagurek.com"
+      }
+    ],
+    "desc": "In WebGL mode, you may have noticed that transparent images still occlude other objects as if they're opaque. This library provides helper functions you can surround each item with to make your items blend better.",
+    "install": "https://unpkg.com/p5.transparency/p5.transparency.js"
+  },
+  {
+    "name": "p5.tree",
+    "url": "https://nakednous.github.io/tags/p5.tree/",
+    "authors": [
+      {
+        "name": "Jean Pierre Charalambos",
+        "url": "https://nakednous.github.io/"
+      }
+    ],
+    "desc": "Render pipeline for p5.js v2 — pose and camera interpolation, space transforms, frustum visibility, HUD, post-processing pipe, picking, and declarative control panels.",
+    "install": "https://unpkg.com/p5.tree/dist/p5.tree.esm.js"
   },
   {
     "name": "p5.tween",
@@ -609,39 +802,84 @@
         "url": "https://github.com/Milchreis"
       }
     ],
-    "desc": "With p5.tween you can create easily animations as tween for your objects and shapes.",
+    "desc": "With p5.tween you can create easily animations as tween in a few keyframes.",
     "install": "https://unpkg.com/p5.tween/dist/p5.tween.min.js"
   },
   {
-    "name": "p5.voronoi",
-    "url": "https://github.com/Dozed12/p5.voronoi",
+    "name": "p5.Utils",
+    "url": "https://alptugan.github.io/p5.utils/",
     "authors": [
       {
-        "name": "Francisco Moreira",
-        "url": "https://github.com/Dozed12"
+        "name": "Alp Tuğan",
+        "url": "https://www.alptugan.com"
       }
     ],
-    "desc": "p5.voronoi provides a set of tools to draw and utilize voronoi diagrams in your p5.js sketches.",
-    "install": [
-      "https://raw.githubusercontent.com/Dozed12/p5.voronoi/master/library/rhill-voronoi-core.js",
-      "https://raw.githubusercontent.com/Dozed12/p5.voronoi/master/library/p5.voronoi.min.js"
-    ]
+    "desc": "p5.Utils is a tool collection for my coding class, featuring a pixel ruler, gradient fill color bindings, and other helpful shortcuts for beginners.",
+    "install": "https://cdn.jsdelivr.net/gh/alptugan/p5.utils@latest/src/p5.utils.min.js"
   },
   {
-    "name": "p5.wasm",
-    "url": "https://github.com/limzykenneth/p5.wasm",
+    "name": "p5.videorecorder",
+    "url": "https://github.com/calebfoss/p5.videorecorder",
     "authors": [
       {
-        "name": "Kenneth Lim",
-        "url": "https://github.com/limzykenneth"
+        "name": "Caleb Foss",
+        "url": "https://www.calebfoss.com/"
       }
     ],
-    "desc": "p5.wasm is an addon library written in Rust and compiled to WebAssembly that implements common functions found in p5.js.",
-    "install": "https://cdn.jsdelivr.net/npm/p5.wasm@0.2.1/dist/p5.wasm.js"
+    "desc": "Record your canvas as a video file with audio.",
+    "install": "https://raw.githubusercontent.com/calebfoss/p5.videorecorder/main/p5.videorecorder.js"
+  },
+  {
+    "name": "p5.warp",
+    "url": "https://github.com/davepagurek/p5.warp",
+    "authors": [
+      {
+        "name": "Dave Pagurek",
+        "url": "https://www.davepagurek.com"
+      }
+    ],
+    "desc": "Fast 3D domain warping using shaders.",
+    "install": "https://unpkg.com/@davepagurek/p5.warp/build/p5.warp.js"
+  },
+  {
+    "name": "p5.waves",
+    "url": "https://seb-prjcts-be.github.io/p5.waves/",
+    "authors": [
+      {
+        "name": "Sebastien Vanblaere",
+        "url": "https://prjcts.be"
+      }
+    ],
+    "desc": "A p5.js library featuring a curated collection of 34 wave types for animation, modulation, and generative art.",
+    "install": "https://cdn.jsdelivr.net/npm/p5@2.2.2/lib/p5.js"
+  },
+  {
+    "name": "p5.webserial",
+    "url": "https://github.com/gohai/p5.webserial",
+    "authors": [
+      {
+        "name": "Gottfried Haider",
+        "url": "https://github.com/gohai/"
+      }
+    ],
+    "desc": "A library for interacting with Serial devices from within the browser, based on Web Serial API (available on Chrome and Edge).",
+    "install": "https://unpkg.com/@gohai/p5.webserial"
+  },
+  {
+    "name": "p5.woff2",
+    "url": "https://github.com/davepagurek/p5.woff2",
+    "authors": [
+      {
+        "name": "Dave Pagurek",
+        "url": "https://www.davepagurek.com"
+      }
+    ],
+    "desc": "An addon to add support for WebGL rendering, textToPoints, and related text methods for woff2 fonts. Load a Google Fonts URL and you're good to go!",
+    "install": "https://unpkg.com/p5.woff2/lib/p5.woff2.js"
   },
   {
     "name": "p5.xr",
-    "url": "https://p5xr.org/#/",
+    "url": "https://p5xr.org",
     "authors": [
       {
         "name": "Stalgia Grigg",
@@ -652,52 +890,183 @@
     "install": "https://github.com/stalgiag/p5.xr/releases/download/patch/p5xr.js"
   },
   {
-    "name": "pdl.library",
-    "url": "https://github.com/phywand/pdl-library/",
+    "name": "p5grid",
+    "url": "https://github.com/aahdee/p5grid",
     "authors": [
       {
-        "name": "Ian Lawrence",
-        "url": "https://slowthinkingphysics.net"
+        "name": "Aren Davey",
+        "url": "https://aahdee.net/"
       }
     ],
-    "desc": "A set of functions and classes to create interactive diagrams for teaching and learning physics.",
-    "install": "https://raw.githubusercontent.com/phywand/pdl-library/master/__support/pdlEnvironment.js"
+    "desc": "Hexagonal Tiling Library",
+    "install": null
+  },
+  {
+    "name": "p5jsDebugCam",
+    "url": "https://github.com/RandomGamingDev/p5jsDebugCam/",
+    "authors": [
+      {
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
+      }
+    ],
+    "desc": "A basic keyboard only debug camera for p5.js",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/p5jsDebugCam/debugCam.js"
+  },
+  {
+    "name": "p5mirror",
+    "url": "https://github.com/molab-itp/p5mirror",
+    "authors": [
+      {
+        "name": "John Henry Thompson",
+        "url": "https://jht1493.net/johnhenrythompson/"
+      }
+    ],
+    "desc": "A library to download your editor.p5js sketches into a git repo or locally",
+    "install": null
+  },
+  {
+    "name": "p5play",
+    "url": "https://github.com/quinton-ashley/p5play",
+    "authors": [
+      {
+        "name": "Quinton Ashley",
+        "url": "https://p5play.org"
+      },
+      {
+        "name": "Paolo Pedercini",
+        "url": "https://www.molleindustria.org/"
+      }
+    ],
+    "desc": "JS game engine that uses p5.js for graphics and Box2D for physics.",
+    "install": [
+      "https://cdn.jsdelivr.net/npm/p5play@3/planck.min.js",
+      "https://cdn.jsdelivr.net/npm/p5play@3/p5play.js"
+    ]
+  },
+  {
+    "name": "p5snap",
+    "url": "https://github.com/zachkrall/p5snap",
+    "authors": [
+      {
+        "name": "Zach Krall",
+        "url": "https://zachkrall.com/"
+      }
+    ],
+    "desc": "a command-line interface to create snapshots of sketches",
+    "install": "https://raw.githubusercontent.com/zachkrall/p5snap/main/lib/snap.js"
+  },
+  {
+    "name": "p5videoKit",
+    "url": "https://github.com/molab-itp/p5videoKit",
+    "authors": [
+      {
+        "name": "John Henry Thompson",
+        "url": "https://jht1493.net/johnhenrythompson/"
+      }
+    ],
+    "desc": "A dashboard for mixing video in the browser",
+    "install": "https://unpkg.com/ml5@1.2.0/dist/ml5.min.js"
+  },
+  {
+    "name": "Pixyp5js",
+    "url": "https://github.com/RandomGamingDev/Pixyp5js/",
+    "authors": [
+      {
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
+      }
+    ],
+    "desc": "A library for easily more easily dealing with pixels in images during runtime",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/Pixyp5js/pixy.js"
+  },
+  {
+    "name": "pretty-grid",
+    "url": "https://github.com/VadimGouskov/pretty-grid",
+    "authors": [
+      {
+        "name": "Vadim Gouskov",
+        "url": "https://vadimgouskov.com"
+      }
+    ],
+    "desc": "Create and manipulate grids with Javascript",
+    "install": "https://unpkg.com/pretty-grid/dist/pretty-grid.js"
   },
   {
     "name": "rita.js",
     "url": "https://rednoise.org/rita",
     "authors": [
       {
-        "name": "Daniel C. Howe",
+        "name": "Daniel C Howe",
         "url": "https://rednoise.org/daniel"
       }
     ],
-    "desc": "Tools for natural language and generative creative writing.",
-    "install": "https://unpkg.com/rita@latest/dist/rita.min.js"
+    "desc": "AI-free tools for natural language and generative writing",
+    "install": "https://unpkg.com/rita"
   },
   {
-    "name": "Shape5",
-    "url": "https://github.com/pfe1223/Shape5js",
+    "name": "Serial Bridge",
+    "url": "https://github.com/IrtizaNasar/SerialBridge",
     "authors": [
       {
-        "name": "Patrick Ester",
-        "url": "https://github.com/pfe1223"
+        "name": "IrtizaNasar",
+        "url": "https://github.com/IrtizaNasar"
       }
     ],
-    "desc": "Shape5 is a 2D primative library for elementary students who are learning to code for the first time.",
-    "install": "https://raw.githubusercontent.com/pfe1223/Shape5js/master/shape5.js"
+    "desc": "A desktop application that bridges serial devices (Arduino, microcontrollers) with P5.js, enabling multiple simultaneous connections and real-time data streaming through a simple JavaScript API.",
+    "install": "https://cdn.jsdelivr.net/npm/p5@2.1.1/lib/p5.min.js"
   },
   {
-    "name": "tramontana",
-    "url": "https://www.tramontana.xyz",
+    "name": "Shader Park",
+    "url": "https://shaderpark.com/",
     "authors": [
       {
-        "name": "Pierluigi Dalla Rosa",
-        "url": "https://www.pierdr.com"
+        "name": "Torin Blankensmith",
+        "url": "https://torinblankensmith.com/"
+      },
+      {
+        "name": "Peter Whidden",
+        "url": "http://www.peterwhidden.com/"
       }
     ],
-    "desc": "Tramontana is a platform for easily use many devices (iOS, Android, tramontana Board, ...) to create interactive environments, interactive spaces or just prototype experiences at scale and in space.",
-    "install": "https://pierdr.github.io/Tramontana-for-Javascript/lib/tramontana_min.js"
+    "desc": "Explore shader programming through a JavaScript interface without the complexity of GLSL. Quickly script shaders using a P5.js style language.",
+    "install": "https://raw.githubusercontent.com/shader-park/shader-park-core/main/index.js"
+  },
+  {
+    "name": "simple.js",
+    "url": "https://github.com/makeyourownalgorithmicart/simple.js/wiki",
+    "authors": [
+      {
+        "name": "Tariq Rashid",
+        "url": "https://www.youtube.com/@AlgorithmicArt/videos"
+      }
+    ],
+    "desc": "Helper functions and defaults for young and new coders.",
+    "install": null
+  },
+  {
+    "name": "Tilemapp5js",
+    "url": "https://github.com/RandomGamingDev/Tilemapp5js/",
+    "authors": [
+      {
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
+      }
+    ],
+    "desc": "A simple to use & performant tilemap p5.js library",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/Tilemapp5js/tilemap.js"
+  },
+  {
+    "name": "Total Serialism",
+    "url": "https://tmhglnd.github.io/total-serialism/",
+    "authors": [
+      {
+        "name": "Timo Hoogland",
+        "url": "https://www.timohoogland.name/"
+      }
+    ],
+    "desc": "A toolbox full of methods for procedurally generating and transforming arrays mainly focused on algorithmic composition. Includes methods like markov-chain, cellular automaton, lindenmayer system, euclidean distribution and much more! Generate the array with your desired method and easily iterate over them in a for-loop to draw the results.",
+    "install": "https://unpkg.com/total-serialism/index.js"
   },
   {
     "name": "TurtleGFX",
@@ -712,27 +1081,99 @@
     "install": "https://raw.githubusercontent.com/CodeGuppyPrograms/TurtleGFX/master/lib/turtlegfx.js"
   },
   {
-    "name": "vida",
-    "url": "https://tetoki.eu/vida",
+    "name": "TurtleGraphics",
+    "url": "http://www.lagers.org.uk/tg/index.html",
     "authors": [
       {
-        "name": "Pawel Janicki",
-        "url": "https://paweljanicki.jp"
+        "name": "Peter Lager",
+        "url": "http://www.lagers.org.uk"
       }
     ],
-    "desc": "Vida is a simple library that adds camera (or video) based motion detection and blob tracking functionality to p5js.",
-    "install": "https://www.tetoki.eu/vida/vida/p5.vida.min.js"
+    "desc": "Watch images being drawn using turtle graphics.",
+    "install": "https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.0/p5.min.js"
+  },
+  {
+    "name": "UI Renderer",
+    "url": "https://github.com/amitSah121/p5.js-libraries/tree/main/renderer",
+    "authors": [
+      {
+        "name": "Amit Kumar Sah",
+        "url": "https://github.com/amitSah121"
+      }
+    ],
+    "desc": "Create a UI within your sketch, including utilities for different layouts and interactive sliders.",
+    "install": null
+  },
+  {
+    "name": "VecJs",
+    "url": "https://github.com/RandomGamingDev/VecJs",
+    "authors": [
+      {
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
+      }
+    ],
+    "desc": "A basic javascript library for dynamic vectors (e.g. vec2 & vec3) based on lists.",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/VecJs@8b6cbf7f851fd0ba1a11f602031a2b2e06c3fecb/vec.js"
+  },
+  {
+    "name": "WebGL2FBO",
+    "url": "https://github.com/RandomGamingDev/WebGL2FBO",
+    "authors": [
+      {
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
+      }
+    ],
+    "desc": "A simple library for OOP encapsulation and abstraction of some of WebGL2 Framebuffers and the Renderbuffers they rely on",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/WebGL2FBO/fbo.js"
+  },
+  {
+    "name": "WebGL2Tex",
+    "url": "https://github.com/RandomGamingDev/WebGL2Tex",
+    "authors": [
+      {
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
+      }
+    ],
+    "desc": "A simple library for OOP encapsulation and abstraction of some of the different WebGL2 textures while still giving full control over them.",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/WebGL2Tex/tex.js"
   },
   {
     "name": "WEBMIDI.js",
-    "url": "https://webmidijs.org/",
+    "url": "https://github.com/djipco/webmidi",
     "authors": [
       {
         "name": "Jean-Philippe Côté",
         "url": "https://djip.co"
       }
     ],
-    "desc": "Easily send and receive MIDI messages from p5.",
+    "desc": "A user-friendly library to send and receive MIDI messages with ease.",
     "install": "https://cdn.jsdelivr.net/npm/webmidi@next/dist/iife/webmidi.iife.js"
+  },
+  {
+    "name": "XYscope.js",
+    "url": "https://teddavis.org/xyscopejs",
+    "authors": [
+      {
+        "name": "Ted Davis",
+        "url": "https://teddavis.org"
+      }
+    ],
+    "desc": "p5.js library to render graphics on analog vector displays",
+    "install": "https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"
+  },
+  {
+    "name": "Zoomp5js",
+    "url": "https://github.com/RandomGamingDev/Zoomp5js/",
+    "authors": [
+      {
+        "name": "RandomGamingDev",
+        "url": "https://randomgamingdev.github.io/index.html"
+      }
+    ],
+    "desc": "A simple library for adding the zooming functionality to your p5.js project.",
+    "install": "https://cdn.jsdelivr.net/gh/RandomGamingDev/VecJs/vec.js"
   }
 ]

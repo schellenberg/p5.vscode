@@ -51,7 +51,7 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "test": "node ./out/test/runTest.js",
-    "update-libraries": "node create_library_json.js",
+    "update-libraries": "node create_library_json.js && node auto_update_install_urls.js && node create_library_json.js",
     "update-p5": "python update-p5js.py",
     "update-eslint-rules": "python update-eslint-rules.py"
   },
