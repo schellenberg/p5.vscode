@@ -53,6 +53,7 @@
     "test": "node ./out/test/runTest.js",
     "update-libraries": "node create_library_json.js && node auto_update_install_urls.js && node create_library_json.js",
     "update-p5": "python update-p5js.py",
+    "update-p5-types": "node update-p5-types.js",
     "update-eslint-rules": "python update-eslint-rules.py"
   },
   "devDependencies": {

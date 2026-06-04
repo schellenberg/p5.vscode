@@ -203,6 +203,7 @@ async function copyTemplate(dest: string) {
       "*.js",
       "**/*.js",
       Uri.joinPath(Uri.file(__dirname), "../p5types", "global.d.ts").fsPath,
+      Uri.joinPath(Uri.file(__dirname), "../p5types", "p5.sound.d.ts").fsPath,
     ],
   };
   const jsconfigPath = Uri.joinPath(baseDest, "jsconfig.json");
@@ -216,6 +217,7 @@ async function updateJSConfig() {
   }
   const jsconfigPath = path.join(workspacePath, "jsconfig.json");
   const defPath = Uri.joinPath(Uri.file(__dirname), "../p5types", "global.d.ts").fsPath;
+  const soundDefPath = Uri.joinPath(Uri.file(__dirname), "../p5types", "p5.sound.d.ts").fsPath;
   if (!existsSync(jsconfigPath)) {
     return false;
   }
@@ -223,7 +225,8 @@ async function updateJSConfig() {
     include: [
       "*.js",
       "libraries/*.js",
-      defPath
+      defPath,
+      soundDefPath
     ],
   };
   writeFileSync(jsconfigPath, JSON.stringify(jsconfig, null, 2));
