@@ -19,3 +19,15 @@ npx vsce publish 1.7.0     (use whatever version number you choose in package.js
 
 If you instead want to try to automate the version number, you could use this instead, but would need to push the repo first.
 npx vsce publish minor 
+
+
+
+
+//things I did to publish with VSCodium
+// - made an account and signed the forms with https://open-vsx.org
+// - made a new token (not sharing here -- saved in password manager)
+// - called npx ovsx create-namespace wmcicompsci -p insert-token-here to claim the namespace
+// - called npx ovsx publish -p insert-token-here
+
+//from here on out, should be able to just call:
+//  npx ovsx publish -p insert-token-here
